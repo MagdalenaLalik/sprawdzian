@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+}
+
+#lewy {
+    background-color: red;
+    position: fixed;
+    left: 0;
+    float: left;
+    height: 500%;
+    width: 50%;
+    margin-top: -1%;
+}
+
+#prawy {
+    background-color: blue;
+    position: fixed;
+    right: 0;
+    float: right;
+    height: 500%;
+    width: 50%;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 120%;
+}
